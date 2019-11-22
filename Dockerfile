@@ -1,2 +1,2 @@
-FROM jboss/wildfly1
+FROM jboss/wildfly
 ADD springwebapp.war  /opt/jboss/wildfly/standalone/deployments/
